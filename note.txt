@@ -1,0 +1,28 @@
+Restaurant app
+
+create a project -npx create react-app restaurant-listing-app
+install react bootstrap - npm i react-bootstrap bootstrap
+Select templates from bootswatch
+Create component header and footer (design)
+Create Home Component - Reslist (complete array of data from restaurant.json)
+create a component - displaying  array of data -Restcard(Displaying array of data as card format)
+Redirection - view a restaurant 
+Create a component - viewrest
+Routing
+install react router dom- npm install react-router-dom
+import into app.js
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom' 
+route-for setup path for a component
+Routes-For holding all route path tag
+router- holding Routes
+UseParams-(hooks) Return an object of  key/value pairs of the dynamic params from the current URL that were matched by the route path.
+create a component -Restop For displaying the opening times
+                   -Restview For displaying reviews and comments 
+                   Redux -to manage state,inorder to avoid prop drilling
+                   Install Redux library - npm install reduc react-redux redux-thunk
+Create a store file -src/store  (To hold updated status)
+Creste Action -src/actions/restlistAction.js (Logic to fec=tch data from an API)
+    To fetch data here we use axios -npm i axios
+create constants folder -src/constants/restconstant.
+create Reducers folder -src/reducers/restReducers 
+
